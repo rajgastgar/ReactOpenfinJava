@@ -6,6 +6,9 @@
         "url": "http://localhost:3000/",
         "uuid": "OpenfinPOC-ivewu12t5m",
         "autoShow": true,
+        "frame":false,
+        "defaultWidth": 500,
+        "maxHeight": 160,
         "permissions": {
             "ExternalWindow": {
                 "wrap": true

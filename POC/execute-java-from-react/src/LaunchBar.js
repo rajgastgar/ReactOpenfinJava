@@ -20,10 +20,17 @@ export class LaunchBar extends Component {
 
     render() {
         return (
-            <div>
-                <h1>Launch Bar</h1>
-                <button className="Square"onClick={this.executeJP}>JP</button>
-                
+            <div  align="left">
+                <h2>Launch Bar</h2>
+                <button className="Square"onClick={this.executeJP}>JP</button>   
+                <button className="Square"onClick={this.executeJP}>JP</button>   
+                <button className="Square"onClick={this.executeJP}>JP</button>  
+                <button className="Square"onClick={this.executeJP}>JP</button>   
+                <button className="Square"onClick={this.executeJP}>JP</button>   
+                <button className="Square"onClick={this.executeJP}>JP</button>  
+                <button className="Square"onClick={this.executeJP}>JP</button>   
+                <button className="Square"onClick={this.executeJP}>JP</button>   
+                <button className="Square"onClick={this.executeJP}>JP</button>               
             </div>
         )
     }
