@@ -1,0 +1,30 @@
+{
+    "devtools_port": 9090,
+    "startup_app": {
+        "name": "OpenfinPOC",
+        "description": "OpenFin POC",
+        "url": "http://localhost:3000/",
+        "uuid": "OpenfinPOC-ivewu12t5m",
+        "autoShow": true,
+        "permissions": {
+            "ExternalWindow": {
+                "wrap": true
+            },
+            "System": {
+                "getAllExternalWindows": true,
+                "launchExternalProcess": true,
+                "readRegistryValue": true,
+                "terminateExternalProcess": true
+            }
+        }
+    },
+    "runtime": {
+        "arguments": "",
+        "version": "stable"
+    },
+    "shortcut": {
+        "company": "OpenFin",
+        "description": "Openfin POC",
+        "name": "Openfin POC"
+    }
+}
